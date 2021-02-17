@@ -96,7 +96,7 @@ function App() {
           </div>
         </CarouselProvider>
       </div>
-      <div className="carousel1Container">
+      <div className="carousel2Container">
         <CarouselProvider
           visibleSlides={3}
           totalSlides={6}
@@ -136,7 +136,7 @@ function App() {
           
         </CarouselProvider>
       </div>
-      <div className="carousel1Container">
+      <div className="carousel2Container">
         <CarouselProvider
           visibleSlides={3}
           totalSlides={9}
