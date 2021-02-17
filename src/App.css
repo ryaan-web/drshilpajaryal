@@ -64,8 +64,8 @@ p {
 }
 .heroDesc {
   position: absolute;
-  top: 35rem;
-  left: 90rem;
+  top: 28rem;
+  left: 75rem;
   z-index: 99999;
   color: white;
 }
@@ -88,7 +88,7 @@ p {
 }
 .heroBio {
   position: absolute;
-  top: 100rem;
+  top: 112rem;
   left: 15rem;
   z-index: 99999;
   color: white;
