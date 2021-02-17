@@ -64,25 +64,25 @@ p {
 }
 .heroDesc {
   position: absolute;
-  top: 20rem;
-  left: 50rem;
+  top: 35rem;
+  left: 90rem;
   z-index: 99999;
   color: white;
 }
 .heroDescText {
-  font-size: 3.5rem;
+  font-size: 7rem;
   font-weight: 600;
 }
 @media only screen and (max-width: 80rem) {
   .heroDesc {
     position: absolute;
-    top: 5rem;
-    left: 15rem;
+    top: 10rem;
+    left: 30rem;
     z-index: 99999;
     color: white;
   }
   .heroDescText {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 600;
   }
 }
@@ -94,19 +94,19 @@ p {
   color: white;
 }
 .heroBioText {
-  font-size: 3.5rem;
+  font-size: 7rem;
   font-weight: 600;
 }
 @media only screen and (max-width: 80rem) {
   .heroBio {
     position: absolute;
-    top: 18rem;
-    left: 2rem;
+    top: 35rem;
+    left: 4rem;
     z-index: 99999;
     color: white;
   }
   .heroBioText {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 600;
   }
 }
