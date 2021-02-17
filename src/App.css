@@ -70,7 +70,7 @@ p {
   color: white;
 }
 .heroDescText {
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 @media only screen and (max-width: 80rem) {
@@ -88,13 +88,13 @@ p {
 }
 .heroBio {
   position: absolute;
-  top: 65rem;
+  top: 100rem;
   left: 15rem;
   z-index: 99999;
   color: white;
 }
 .heroBioText {
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 @media only screen and (max-width: 80rem) {
