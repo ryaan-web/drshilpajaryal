@@ -76,13 +76,13 @@ p {
 @media only screen and (max-width: 80rem) {
   .heroDesc {
     position: absolute;
-    top: 10rem;
-    left: 30rem;
+    top: 7rem;
+    left: 19rem;
     z-index: 99999;
     color: white;
   }
   .heroDescText {
-    font-size: 3rem;
+    font-size: 1.6rem;
     font-weight: 600;
   }
 }
@@ -106,7 +106,7 @@ p {
     color: white;
   }
   .heroBioText {
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-weight: 600;
   }
 }
@@ -133,6 +133,7 @@ p {
   .footer {
     margin-top: 4rem;
     text-align: center;
+    font-size: 2rem;
   }
 }
 
