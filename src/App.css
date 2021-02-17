@@ -44,14 +44,14 @@ p {
 }
 .heroCarouselContainer {
   position: relative;
-  height: 110rem!important;
+  height: 150rem!important;
   background: #1c1c1c;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 80rem) {
   .heroCarouselContainer {
     position: relative;
-    height: 32rem!important;
+    height: 45rem!important;
     background: #1c1c1c;
   }
 }
@@ -82,7 +82,7 @@ p {
     color: white;
   }
   .heroDescText {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 }
