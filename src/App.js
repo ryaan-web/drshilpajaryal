@@ -12,7 +12,8 @@ function App() {
         <HeroCarousel
           title={'sjdflsjdfi'}
           description={"sifahfsf iihsiefhsef"}
-          interval={8000}>
+          interval={8000}
+          className="heroCarouselHeight">
           <img
             src="./images/Screenshot_20210211-230617.jpg"
             width="100%"
@@ -66,7 +67,7 @@ function App() {
           totalSlides={6}
           step={1}
           naturalSlideWidth={1}
-          naturalSlideHeight={1 }
+          naturalSlideHeight={1}
           hasMasterSpinner
         >
           <h2 className="headline">Work</h2>
