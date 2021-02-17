@@ -65,6 +65,9 @@ p {
 .heroCarouselHeight {
   height: auto;
 }
+.HeroCarousel_slide__27OPB {
+  height: auto;
+}
 .heroDesc {
   position: absolute;
   top: 28rem;
@@ -80,12 +83,12 @@ p {
   .heroDesc {
     position: absolute;
     top: 7rem;
-    left: 22rem;
+    left: 23rem;
     z-index: 99999;
     color: white;
   }
   .heroDescText {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 }
@@ -114,7 +117,7 @@ p {
   }
 }
 .carousel1Container {
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 .carousel2Container {
   margin-top: 4rem;
