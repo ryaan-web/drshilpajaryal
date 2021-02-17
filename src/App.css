@@ -44,7 +44,7 @@ p {
 }
 .heroCarouselContainer {
   position: relative;
-  height: 200rem!important;
+  height: 180rem!important;
   background: #1c1c1c;
   margin-top: -1rem;
 }
