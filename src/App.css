@@ -44,14 +44,14 @@ p {
 }
 .heroCarouselContainer {
   position: relative;
-  height: 150rem!important;
+  height: 155rem!important;
   background: #1c1c1c;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 80rem) {
   .heroCarouselContainer {
     position: relative;
-    height: 40rem!important;
+    height: 50rem!important;
     background: #1c1c1c;
   }
 }
@@ -111,7 +111,7 @@ p {
   }
 }
 .carousel1Container {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .carousel2Container {
   margin-top: 4rem;
