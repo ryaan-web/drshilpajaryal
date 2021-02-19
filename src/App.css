@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background: #321616;
+  background: #262026;
   color: white;
 }
 
@@ -45,20 +45,20 @@ p {
 .heroCarouselContainer {
   position: relative;
   height: 181.8rem!important;
-  background: #321616;
+  background: #262026;
   margin-top: -1rem;
-  -webkit-box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
-  -moz-box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
-  box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
+  -webkit-box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
+-moz-box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
+box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
 }
 @media only screen and (max-width: 80rem) {
   .heroCarouselContainer {
     position: relative;
     height: 50rem!important;
-    background: #321616;
-    -webkit-box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
-  -moz-box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
-  box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
+    background: #262026;
+    -webkit-box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
+-moz-box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
+box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
   }
 }
 .heroWrapper {
@@ -135,15 +135,15 @@ p {
   padding: 2rem;
 }
 .sliderBtn {
-  background: #3f1c1c;
+  background: #1e1a1e;
   border-width: 1px;
   color: #aaaaaa;
-  padding: 0.2rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 5px;
   margin: 3px;
-  -webkit-box-shadow: 0px 2px 12px -1px rgba(32,14,14,1);
--moz-box-shadow: 0px 2px 12px -1px rgba(32,14,14,1);
-box-shadow: 0px 2px 12px -1px rgba(32,14,14,1);
+  -webkit-box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
+-moz-box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
+box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
 }
 .footer {
   color: #e5e5e5;
@@ -151,20 +151,20 @@ box-shadow: 0px 2px 12px -1px rgba(32,14,14,1);
   text-align: center;
   font-size: 1.5rem;
   margin-top: 3rem;
-  background: #200e0e;
-  -webkit-box-shadow: 0px -13px 21px 5px rgba(32,14,14,0.87);
-  -moz-box-shadow: 0px -13px 21px 5px rgba(32,14,14,0.87);
-  box-shadow: 0px -13px 21px 5px rgba(32,14,14,0.87);
+  background: #131013;
+  -webkit-box-shadow: 0px -9px 23px -4px rgba(19,16,19,1);
+  -moz-box-shadow: 0px -9px 23px -4px rgba(19,16,19,1);
+  box-shadow: 0px -9px 23px -4px rgba(19,16,19,1);
 }
 @media only screen and (max-width: 80rem) {
   .footer {
     margin-top: 4rem;
     text-align: center;
-    background: #200e0e;
+    background: #131013;
     font-size: 1rem;
-    -webkit-box-shadow: 0px -13px 21px 5px rgba(32,14,14,0.87);
-    -moz-box-shadow: 0px -13px 21px 5px rgba(32,14,14,0.87);
-    box-shadow: 0px -13px 21px 5px rgba(32,14,14,0.87);
+    -webkit-box-shadow: 0px -9px 23px -4px rgba(19,16,19,1);
+    -moz-box-shadow: 0px -9px 23px -4px rgba(19,16,19,1);
+    box-shadow: 0px -9px 23px -4px rgba(19,16,19,1);
   }
 }
 
