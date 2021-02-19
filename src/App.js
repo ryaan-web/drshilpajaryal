@@ -102,8 +102,8 @@ function App() {
           visibleSlides={3}
           totalSlides={6}
           step={1}
-          naturalSlideWidth={500}
-          naturalSlideHeight={400}
+          naturalSlideWidth={1}
+          naturalSlideHeight={1}
           hasMasterSpinner
         >
           <h2 className="headline">Activities</h2>
