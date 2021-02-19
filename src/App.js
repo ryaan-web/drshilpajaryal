@@ -28,11 +28,11 @@ function App() {
       </div>
       <div className="heroWrapper">
         <div className="heroNavBar">
-          <a className="heroNavBarText">Home</a>
-          <a className="heroNavBarText">Work</a>
-          <a className="heroNavBarText">Activities</a>
-          <a className="heroNavBarText">Lifestyle</a>
-          <a className="heroNavBarText">Publication</a>
+          <a href="#home-top" className="heroNavBarText">Home</a>
+          <a href="#home-work" className="heroNavBarText">Work</a>
+          <a href="#home-activities" className="heroNavBarText">Activities</a>
+          <a href="#home-lifestyle" className="heroNavBarText">Lifestyle</a>
+          <a className="heroNavBarText">Publication (coming soon)</a>
         </div>
         <div className="heroDesc">
           <p className="heroDescText">
