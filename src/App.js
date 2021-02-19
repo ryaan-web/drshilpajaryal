@@ -63,45 +63,9 @@ function App() {
         </div>
         
       </div>
-      <div className="carousel1Container" id="home-work">
+      <div className="carousel1Container" id="home-activities">
         <CarouselProvider
-          visibleSlides={3}
-          totalSlides={6}
-          step={1}
-          naturalSlideWidth={1}
-          naturalSlideHeight={1}
-          hasMasterSpinner
-        >
-          <h2 className="headline">Work</h2>
-          <Slider className="slider">
-            <Slide index={0} className="slide">
-              <ImageWithZoom src="./images/Screenshot_20210215-142127.jpg" />
-            </Slide>
-            <Slide index={1} className="slide">
-              <ImageWithZoom src="./images/Screenshot_20210215-142225.jpg" />
-            </Slide>
-            <Slide index={2} className="slide">
-              <ImageWithZoom src="./images/Screenshot_20210215-142503.jpg" />
-            </Slide>
-            <Slide index={3} className="slide">
-              <ImageWithZoom src="./images/Screenshot_20210215-142549.jpg" />
-            </Slide>
-            <Slide index={4} className="slide">
-              <ImageWithZoom src="./images/Screenshot_20210215-142716.jpg" />
-            </Slide>
-          </Slider>
-          <div className="sliderBtns">
-            <ButtonFirst className="sliderBtn">First</ButtonFirst>
-            <ButtonBack className="sliderBtn">Back</ButtonBack>
-            <ButtonNext className="sliderBtn">Next</ButtonNext>
-            <ButtonLast className="sliderBtn">Last</ButtonLast>
-            {/* <DotGroup /> */}
-          </div>
-        </CarouselProvider>
-      </div>
-      <div className="carousel2Container" id="home-activities">
-        <CarouselProvider
-          visibleSlides={3}
+          visibleSlides={1}
           totalSlides={6}
           step={1}
           naturalSlideWidth={1}
@@ -137,6 +101,42 @@ function App() {
             {/* <DotGroup /> */}
           </div>
           
+        </CarouselProvider>
+      </div>
+      <div className="carousel2Container" id="home-work">
+        <CarouselProvider
+          visibleSlides={3}
+          totalSlides={6}
+          step={1}
+          naturalSlideWidth={1}
+          naturalSlideHeight={1}
+          hasMasterSpinner
+        >
+          <h2 className="headline">Routine</h2>
+          <Slider className="slider">
+            <Slide index={0} className="slide">
+              <ImageWithZoom src="./images/Screenshot_20210215-142127.jpg" />
+            </Slide>
+            <Slide index={1} className="slide">
+              <ImageWithZoom src="./images/Screenshot_20210215-142225.jpg" />
+            </Slide>
+            <Slide index={2} className="slide">
+              <ImageWithZoom src="./images/Screenshot_20210215-142503.jpg" />
+            </Slide>
+            <Slide index={3} className="slide">
+              <ImageWithZoom src="./images/Screenshot_20210215-142549.jpg" />
+            </Slide>
+            <Slide index={4} className="slide">
+              <ImageWithZoom src="./images/Screenshot_20210215-142716.jpg" />
+            </Slide>
+          </Slider>
+          <div className="sliderBtns">
+            <ButtonFirst className="sliderBtn">First</ButtonFirst>
+            <ButtonBack className="sliderBtn">Back</ButtonBack>
+            <ButtonNext className="sliderBtn">Next</ButtonNext>
+            <ButtonLast className="sliderBtn">Last</ButtonLast>
+            {/* <DotGroup /> */}
+          </div>
         </CarouselProvider>
       </div>
       <div className="carousel2Container" id="home-lifestyle">
