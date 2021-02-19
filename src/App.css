@@ -140,10 +140,10 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
   color: #aaaaaa;
   padding: 0.5rem 2rem;
   border-radius: 5px;
-  margin: 3px;
+  margin: 2px;
   -webkit-box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
--moz-box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
-box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
+  -moz-box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
+  box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
 }
 .footer {
   color: #e5e5e5;
@@ -307,10 +307,15 @@ box-shadow: 0px 2px 12px -1px rgba(23,19,23,1);
 .slider {
   max-width: 90%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 20px;
   -webkit-box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
   -moz-box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
   box-shadow: 0px 11px 21px 5px rgba(32,14,14,0.87);
+}
+@media only screen and (max-width: 80rem) {
+  .slider {
+    border-radius: 10px;
+  }
 }
 .sliderTitle {
   text-align: center;
