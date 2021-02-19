@@ -65,7 +65,7 @@ function App() {
       </div>
       <div className="carousel1Container" id="home-activities">
         <CarouselProvider
-          visibleSlides={2}
+          visibleSlides={1}
           totalSlides={6}
           step={1}
           naturalSlideWidth={1}
@@ -73,7 +73,7 @@ function App() {
           hasMasterSpinner
         >
           <h2 className="headline">Activities</h2>
-          <Slider className="slider">
+          <Slider className="slider singleSlider">
             <Slide index={0} className="slide">
               <ImageWithZoom src="./images/Screenshot_20210211-225318.jpg" />
             </Slide>
