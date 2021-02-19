@@ -45,14 +45,14 @@ p {
 .heroCarouselContainer {
   position: relative;
   height: 185rem!important;
-  background: #1c1c1c;
+  background: #3f1c1c;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 80rem) {
   .heroCarouselContainer {
     position: relative;
     height: 50rem!important;
-    background: #1c1c1c;
+    background: #3f1c1c;
   }
 }
 .heroWrapper {
@@ -127,6 +127,12 @@ p {
   flex-direction: row;
   justify-content: center;
   padding: 2rem;
+}
+.sliderBtn {
+  background: #3f1c1c;
+  border-width: 1px;
+  color: #aaaaaa;
+  padding: 1rem 2rem;
 }
 .footer {
   color: #e5e5e5;
