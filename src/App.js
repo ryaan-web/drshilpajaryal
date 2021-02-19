@@ -65,7 +65,7 @@ function App() {
       </div>
       <div className="carousel1Container" id="home-activities">
         <CarouselProvider
-          visibleSlides={1}
+          visibleSlides={2}
           totalSlides={6}
           step={1}
           naturalSlideWidth={1}
