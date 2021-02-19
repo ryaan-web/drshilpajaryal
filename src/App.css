@@ -74,6 +74,17 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
 .HeroCarousel_slide__27OPB {
   height: auto;
 }
+.heroNavBar {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  z-index: 99999;
+  color: white;
+}
+.heroNavBarText {
+  font-size: 5rem;
+  font-weight: 600;
+}
 .heroDesc {
   position: absolute;
   top: 28rem;
@@ -86,6 +97,17 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
   font-weight: 600;
 }
 @media only screen and (max-width: 80rem) {
+  .heroNavBar {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    z-index: 99999;
+    color: white;
+  }
+  .heroNavBarText {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
   .heroDesc {
     position: absolute;
     top: 7rem;

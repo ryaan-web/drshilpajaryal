@@ -8,7 +8,7 @@ import 'reset-css'
 function App() {
   return (
     <div className="app">
-      <div className="heroCarouselContainer">
+      <div className="heroCarouselContainer" id="home-top">
         <HeroCarousel
           title={'sjdflsjdfi'}
           description={"sifahfsf iihsiefhsef"}
@@ -27,6 +27,13 @@ function App() {
         </HeroCarousel>
       </div>
       <div className="heroWrapper">
+        <div className="heroNavBar">
+          <span>Home</span>
+          <span>Work</span>
+          <span>Activities</span>
+          <span>Lifestyle</span>
+          <span>Publication</span>
+        </div>
         <div className="heroDesc">
           <p className="heroDescText">
             A smile can save a life!
@@ -56,7 +63,7 @@ function App() {
         </div>
         
       </div>
-      <div className="carousel1Container">
+      <div className="carousel1Container" id="home-work">
         <CarouselProvider
           visibleSlides={3}
           totalSlides={6}
@@ -92,7 +99,7 @@ function App() {
           </div>
         </CarouselProvider>
       </div>
-      <div className="carousel2Container">
+      <div className="carousel2Container" id="home-activities">
         <CarouselProvider
           visibleSlides={3}
           totalSlides={6}
@@ -132,7 +139,7 @@ function App() {
           
         </CarouselProvider>
       </div>
-      <div className="carousel2Container">
+      <div className="carousel2Container" id="home-lifestyle">
         <CarouselProvider
           visibleSlides={3}
           totalSlides={9}
