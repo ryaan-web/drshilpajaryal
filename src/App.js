@@ -24,11 +24,6 @@ function App() {
             width="100%"
             height="auto"
           />
-          <img
-            src="./images/Screenshot_20210211-231033.jpg"
-            width="100%"
-            height="auto"
-          />
         </HeroCarousel>
       </div>
       <div className="heroWrapper">
