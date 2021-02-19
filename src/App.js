@@ -32,7 +32,7 @@ function App() {
           <a href="#home-work" className="heroNavBarText">Work</a>
           <a href="#home-activities" className="heroNavBarText">Activities</a>
           <a href="#home-lifestyle" className="heroNavBarText">Lifestyle</a>
-          <a className="heroNavBarText">Publication (coming soon)</a>
+          <a className="heroNavBarText">Publications (coming soon)</a>
         </div>
         <div className="heroDesc">
           <p className="heroDescText">

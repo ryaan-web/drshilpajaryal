@@ -76,8 +76,8 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
 }
 .heroNavBar {
   position: absolute;
-  top: 10rem;
-  left: 10rem;
+  top: 4rem;
+  left: 4rem;
   z-index: 99999;
 }
 .heroNavBarText {
@@ -86,7 +86,7 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
   font-size: 3rem;
   font-weight: 600;
   text-decoration: none;
-  padding: 0 4px;
+  padding: 0 1rem;
 }
 @media only screen and (max-width: 80rem) {
   .heroNavBar {
@@ -99,9 +99,10 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
     display: inline-block;
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
-  }
+    padding: 0 4px;
+}
 }
 .heroDesc {
   position: absolute;
@@ -118,12 +119,12 @@ box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
   .heroDesc {
     position: absolute;
     top: 7rem;
-    left: 23rem;
+    left: 22rem;
     z-index: 99999;
     color: white;
   }
   .heroDescText {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
   }
 }
