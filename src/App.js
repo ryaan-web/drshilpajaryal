@@ -15,6 +15,16 @@ function App() {
           interval={8000}
           className="heroCarouselHeight">
           <img
+            src="./images/Screenshot_20210220-124714.jpg"
+            width="100%"
+            height="auto"
+          />
+          <img
+            src="./images/Screenshot_20210220-124725.jpg"
+            width="100%"
+            height="auto"
+          />
+          <img
             src="./images/Screenshot_20210211-230617.jpg"
             width="100%"
             height="auto"
