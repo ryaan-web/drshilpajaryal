@@ -34,8 +34,8 @@ function App() {
       <div className="heroWrapper">
         <div className="heroNavBar">
           <a href="#home-top" className="heroNavBarText">Home</a>
-          <a href="#home-work" className="heroNavBarText">Work</a>
           <a href="#home-activities" className="heroNavBarText">Activities</a>
+          <a href="#home-work" className="heroNavBarText">Work</a>
           <a href="#home-lifestyle" className="heroNavBarText">Lifestyle</a>
           <a className="heroNavBarText">Publications (coming soon)</a>
         </div>
