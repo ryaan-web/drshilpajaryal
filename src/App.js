@@ -14,11 +14,11 @@ function App() {
           description={"sifahfsf iihsiefhsef"}
           interval={8000}
           className="heroCarouselHeight">
-          <img
+          {/* <img
             src="./images/Screenshot_20210211-225910.jpg"
             width="100%"
             height="auto"
-          />
+          /> */}
           <img
             src="./images/Screenshot_20210220-124714.jpg"
             width="100%"
