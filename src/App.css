@@ -44,7 +44,7 @@ p {
 }
 .heroCarouselContainer {
   position: relative;
-  height: 890px;
+  height: 890.5px;
   background: #262026;
   margin-top: -3rem;
   -webkit-box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
@@ -54,11 +54,11 @@ box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
 @media only screen and (max-width: 80rem) {
   .heroCarouselContainer {
     position: relative;
-    height: auto;
+    height: 890.5px;
     background: #262026;
     -webkit-box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
--moz-box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
-box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
+    -moz-box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
+    box-shadow: 0px 27px 27px 3px rgba(19,16,19,1);
   }
 }
 .heroWrapper {
