@@ -118,11 +118,6 @@ box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
   font-size: 5rem;
   font-weight: 600;
 }
-.smallDesc {
-  font-size: 4rem;
-  font-weight: 500;
-  max-width: 75%;
-}
 @media only screen and (max-width: 80rem) {
   .heroDesc {
     position: absolute;
@@ -147,17 +142,27 @@ box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
   font-size: 5rem;
   font-weight: 600;
 }
+.smallDesc {
+  font-size: 4rem;
+  font-weight: 500;
+  max-width: 75%;
+}
 @media only screen and (max-width: 80rem) {
   .heroBio {
     position: absolute;
     top: 35rem;
-    left: 4rem;
+    left: 2rem;
     z-index: 99999;
     color: white;
   }
   .heroBioText {
     font-size: 1.8rem;
     font-weight: 600;
+  }
+  .smallDesc {
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 75%;
   }
 }
 .carousel1Container {
