@@ -60,24 +60,19 @@ function App() {
             Dr. Shilpa Jaryal
           </p>
           <p className="heroBioText">
-            MDS
-          </p>
-          <p className="heroBioText">
-            (Periodontal surgery and Implantology)
-          </p>
-          <p className="heroBioText">
             Dentist @ HP Govt. Dental College/Hopital (IGMC), Shimla
           </p>
-          <p className="heroBioText">
+          <br/>
+          <p className="heroBioText smallDesc">
             MDS from Department of Periodontal surgery and Implantology at National Dental College/Hospital, Mohali, Punjab
           </p>
-          <p className="heroBioText">
+          <p className="heroBioText smallDesc">
             Bachelors in Dental Surgery from M.N. DAV College and Hospital, Solan
           </p>
-          <p className="heroBioText">
+          <p className="heroBioText smallDesc">
             Went to M.L. Syal's Helix Institute, Chandigarh
           </p>
-          <p className="heroBioText">
+          <p className="heroBioText smallDesc">
             Author of Botox-Ageless Aesthetic, Cosmetic and Clinical Application
           </p>
         </div>
