@@ -20,12 +20,12 @@ function App() {
             height="auto"
           /> */}
           <img
-            src="./images/Screenshot_20210220-124714.jpg"
+            src="./images/Screenshot_20210220-124725.jpg"
             width="100%"
             height="auto"
           />
           <img
-            src="./images/Screenshot_20210220-124725.jpg"
+            src="./images/Screenshot_20210220-124714.jpg"
             width="100%"
             height="auto"
           />
