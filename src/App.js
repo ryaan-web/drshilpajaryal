@@ -60,7 +60,7 @@ function App() {
             Dr. Shilpa Jaryal
           </p>
           <p className="heroBioText">
-            Dentist @ HP Govt. Dental College/Hopital (IGMC), Shimla
+            Dentist @ HP Govt. Dental College/Hospital (IGMC), Shimla
           </p>
           <br/>
           <p className="heroBioText smallDesc">
