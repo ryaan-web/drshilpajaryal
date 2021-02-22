@@ -44,10 +44,10 @@ function App() {
           <p className="heroBioText">
             MDS from Department of Periodontal surgery and Implantology at National Dental College/Hospital, Mohali, Punjab
           </p>
+          <br/>
           <p className="heroBioText smallDesc">
             Dentist @ HP Govt. Dental College/Hospital (IGMC), Shimla
           </p>
-          <br/>
           <p className="heroBioText smallDesc">
             Bachelors in Dental Surgery from M.N. DAV College and Hospital, Solan
           </p>
