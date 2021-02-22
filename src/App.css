@@ -66,7 +66,12 @@ box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
   position: absolute;
   top: 0;
   left: 0;
-  height: auto;
+  height: 3120px;;
+}
+@media only screen and (max-width: 80rem) {
+  .heroWrapper {
+    height: 812px;
+  }
 }
 .heroCarouselHeight {
   height: auto;
