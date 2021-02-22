@@ -138,7 +138,7 @@ box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
 }
 .heroBio {
   position: absolute;
-  bottom: 10rem;
+  bottom: 15rem;
   left: 5rem;
   z-index: 99999;
   color: white;
@@ -155,7 +155,7 @@ box-shadow: 0px 30px 35px 11px rgba(19,16,19,1);
 @media only screen and (max-width: 80rem) {
   .heroBio {
     position: absolute;
-    bottom: 5rem;
+    bottom: 10rem;
     left: 2rem;
     z-index: 99999;
     color: white;
