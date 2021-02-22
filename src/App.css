@@ -47,7 +47,7 @@ p {
   width: 100%;
   height: auto;
   background: #162d56;
-  margin-top: -3rem;
+  margin-top: -11rem;
   -webkit-box-shadow: 3px 13px 17px 6px rgba(15,31,60,1);
   -moz-box-shadow: 3px 13px 17px 6px rgba(15,31,60,1);
   box-shadow: 3px 13px 17px 6px rgba(15,31,60,1);
@@ -79,7 +79,7 @@ p {
 }
 .heroNavBar {
   position: absolute;
-  top: 4rem;
+  top: 13rem;
   left: 4rem;
   z-index: 99999;
 }
@@ -94,7 +94,7 @@ p {
 @media only screen and (max-width: 80rem) {
   .heroNavBar {
     position: absolute;
-    top: 4rem;
+    top: 5rem;
     left: 1rem;
     z-index: 99999;
   }
