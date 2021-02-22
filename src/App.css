@@ -58,6 +58,7 @@ p {
     width: 100%;
     height: auto;
     background: #262026;
+    margin-top: -4rem;
     -webkit-box-shadow: 3px 13px 17px 6px rgba(15,31,60,1);
     -moz-box-shadow: 3px 13px 17px 6px rgba(15,31,60,1);
     box-shadow: 3px 13px 17px 6px rgba(15,31,60,1);
