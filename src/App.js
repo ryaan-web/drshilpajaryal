@@ -14,9 +14,7 @@ function App() {
             width="100%"
             height="auto"
           />
-      </div>
-      <div className="heroWrapper">
-        <div className="heroNavBar">
+          <div className="heroNavBar">
           <a href="#home-top" className="heroNavBarText">Home</a>
           <a href="#home-activities" className="heroNavBarText">Activities</a>
           <a href="#home-work" className="heroNavBarText">Work</a>
@@ -60,7 +58,6 @@ function App() {
             Author of Botox-Ageless Aesthetic, Cosmetic and Clinical Application
           </p>
         </div>
-        
       </div>
       <div className="carousel1Container" id="home-activities">
         <CarouselProvider
