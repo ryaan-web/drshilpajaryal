@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="app">
       <div className="heroCarouselContainer" id="home-top">
-          <img
-            src="./images/Screenshot_20210220-124725.jpg"
-            width="100%"
-            height="auto"
-          />
-          <div className="heroNavBar">
+        <img
+          src="./images/Screenshot_20210220-124725.jpg"
+          width="100%"
+          height="auto"
+        />
+        <div className="heroNavBar">
           <a href="#home-top" className="heroNavBarText">Home</a>
           <a href="#home-activities" className="heroNavBarText">Activities</a>
           <a href="#home-work" className="heroNavBarText">Work</a>
