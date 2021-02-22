@@ -67,7 +67,7 @@ function App() {
           visibleSlides={1}
           totalSlides={6}
           step={1}
-          naturalSlideWidth={2}
+          naturalSlideWidth={1}
           naturalSlideHeight={1}
           hasMasterSpinner
         >
